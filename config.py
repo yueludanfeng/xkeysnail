@@ -104,11 +104,3 @@ define_keymap(lambda wm_class: wm_class not in ("Emacs", "URxvt","terminator","c
 
 }, "Emacs-like keys")
 
-define_keymap(re.compile("terminator"), {
-    # Ctrl+s to focus search area
-    K("C-p"): K("C-p"),
-    K("C-n"): K("C-n"),
-    K("C-w"): K("C-w"),
-    K("C-a"): K("C-a"),
-    K("C-e"): K("C-e"),
-}, "terminator")
